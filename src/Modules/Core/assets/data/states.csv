@@ -1,0 +1,73 @@
+state_id,state_name,state_abbr,country_id
+1,Alabama,AL,228
+2,Alaska,AK,228
+3,Arizona,AZ,228
+4,Arkansas,AR,228
+5,California,CA,228
+6,Colorado,CO,228
+7,Connecticut,CT,228
+8,Delaware,DE,228
+9,Florida,FL,228
+10,Georgia,GA,228
+11,Hawaii,HI,228
+12,Idaho,ID,228
+13,Illinois,IL,228
+14,Indiana,IN,228
+15,Iowa,IA,228
+16,Kansas,KS,228
+17,Kentucky,KY,228
+18,Louisiana,LA,228
+19,Maine,ME,228
+20,Maryland,MD,228
+21,Massachusetts,MA,228
+22,Michigan,MI,228
+23,Minnesota,MN,228
+24,Mississippi,MS,228
+25,Missouri,MO,228
+26,Montana,MT,228
+27,Nebraska,NE,228
+28,Nevada,NV,228
+29,New Hampshire,NH,228
+30,New Jersey,NJ,228
+31,New Mexico,NM,228
+32,New York,NY,228
+33,North Carolina,NC,228
+34,North Dakota,ND,228
+35,Ohio,OH,228
+36,Oklahoma,OK,228
+37,Oregon,OR,228
+38,Pennsylvania,PA,228
+39,Rhode Island,RI,228
+40,South Carolina,SC,228
+41,South Dakota,SD,228
+42,Tennessee,TN,228
+43,Texas,TX,228
+44,Utah,UT,228
+45,Vermont,VT,228
+46,Virginia,VA,228
+47,Washington,WA,228
+48,West Virginia,WV,228
+49,Wisconsin,WI,228
+50,Wyoming,WY,228
+51,Washington DC,DC,228
+52,Puerto Rico,PR,228
+53,U.S. Virgin Islands,VI,228
+54,American Samoa,AS,228
+55,Guam,GU,228
+56,Northern Mariana Islands,MP,228
+60,Alberta,AB,36
+61,British Columbia,BC,36
+62,Manitoba,MB,36
+63,New Brunswick,NB,36
+64,Newfoundland and Labrador,NL,36
+65,Nova Scotia,NS,36
+66,Ontario,ON,36
+67,Prince Edward Island,PE,36
+68,Quebec,QC,36
+69,Saskatchewan,SK,36
+70,Northwest Territories,NT,36
+71,Nunavut,NU,36
+72,Yukon Territory,YT,36
+84,Armed Forces Americas,AA,228
+85,Armed Forces Europe,AE,228
+86,Armed Forces Pacific,AP,228

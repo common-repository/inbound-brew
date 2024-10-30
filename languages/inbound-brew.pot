@@ -1,0 +1,45 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-09 13:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: ../../../../inbound-brew/source/src/Modules/Settings/views/admin_lead_settings.php:14
+msgid "Name"
+msgstr ""
+
+#: ../../../../inbound-brew/source/src/Modules/Settings/views/admin_lead_settings.php:15
+msgid "Type"
+msgstr ""
+
+#: ../../../../inbound-brew/source/src/Modules/Settings/views/admin_lead_settings.php:16
+msgid "Options"
+msgstr ""
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "Inbound Brew"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Inbound Brew is a complete inbound marketing, or permission marketing, "
+"toolbox. Everything you need to drive traffic and convert visitors without "
+"the heavy price tag. Inbound Brew comes with SEO (keywords, sitemeta, robots "
+"and keyword management), Lead nurturing, a CRM, and more."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.inboundbrew.com"
+msgstr ""

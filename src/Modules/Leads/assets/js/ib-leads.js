@@ -1,0 +1,1 @@
+!function($){$(window).bind("beforeunload",function(){$.ajax({data:{action:"set_ib_lead_leave"},dataType:"json",type:"put",url:ibAjax.ajaxurl})})}(jQuery);

@@ -1,0 +1,1 @@
+<?php echo $Layout->inactiveModule($module_index); ?>

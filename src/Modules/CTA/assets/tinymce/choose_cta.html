@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js?ver=4.3.1" type="text/javascript"></script>
+	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js?ver=4.3.1" type="text/javascript"></script>
+	<script>
+		$(document).ready(function(){
+			var $body = $("#list");
+			var args = top.tinymce.activeEditor.windowManager.getParams();
+			var ctas = args.cta_codes;
+			if(ctas.length > 0){
+				var row_counter = 0;
+				$.each(ctas, function (key, value) {
+					var content = value.html;
+					var cId = value.cta_id;
+					var $div = $("<div id=\"cat_"+cId+"\" data-id=\""+cId+"\" class=\"ib-cta-preview\">\
+						<div class=\"holder\">\
+							<div class=\"inner\">" + content +"</div>\
+						</div>\
+						<div class=\"title\">"+value.name+"</div>");
+	                $div.click(function(){
+						ctaSelected($(this));						
+					});
+					$body.append($div);
+					/*var height = $div.find('a').height();
+					var top = ($div.height()/2) - height/2;
+					$div.find('.inner').css({top:top});*/
+					row_counter ++;
+					if(row_counter == 3){
+						$body.append("<div class=\"clear\"></div>");
+						row_counter = 0;
+					}
+	            });
+				// prevent clicking on links
+				$("body a").each(function(){
+					$(this).click(function(e){
+						e.preventDefault();
+					});
+				});
+			}
+			function ctaSelected($div){
+				var id = $div.attr('data-id');
+				var args = top.tinymce.activeEditor.windowManager.getParams();
+				var ctas = args.cta_codes;
+				for(var key in ctas){
+					var value = ctas[key];
+					if(value.cta_id  == id){
+						top.tinymce.activeEditor.insertContent('[brew_cta id="'+id+'"]');
+						top.tinymce.activeEditor.windowManager.close();
+						break;
+					}
+				}
+			}
+		});
+	</script>
+</head>
+<body>
+	<center id="list"></center>
+</body>
+</html>	
